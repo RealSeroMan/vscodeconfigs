@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Main Program",
+            "type": "java",
+            "request": "launch",
+            "mainClass": "Hello", //Replace Hello with the actual class name.
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "classPaths": ["${workspaceFolder}/bin"]  // Explicitly setting classpath
+        }
+    ]
+}

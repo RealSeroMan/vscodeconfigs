@@ -3,6 +3,9 @@
 ## Introduction
 This repository contains ready-to-use Visual Studio Code configuration templates specifically designed for C/C++ development environments using GCC, GDB, and G++. It includes separate setup files for GCC and G++ to ensure that developers can quickly configure their projects according to their specific needs.
 
+## Update
+tasks.json and launch.json files for java language has been added. In the java_setup_multiple_sources directory, you can get the tasks.json and launch.json files for multiple source files. It will automatically detect the files in the src directory, and generator .class files into the bin directory. You can change the directory names yourselves.
+
 ## Repository Structure
 - **gcc_setup/**: Contains configuration files for C programming with GCC.
   - `c_cpp_properties.json`: Compiler path and IntelliSense configurations.
